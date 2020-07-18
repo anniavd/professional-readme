@@ -164,7 +164,6 @@ function writeToFile(data) {
     }
   });
 }
-
 // function to initialize program
 function init() {
   inquirer.prompt(questions)
