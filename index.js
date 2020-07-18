@@ -117,7 +117,7 @@ const questions = [
   {
     type: 'input',
     name: 'contribution',
-    message: 'Enter the contributors!',
+    message: 'Enter the contributors!(Enter the names separate with / )',
     validate: contributionInput => {
       if (contributionInput) {
         return true;
@@ -138,7 +138,7 @@ const questions = [
   {
     type: 'input',
     name: 'tests',
-    message: 'Please enter the tests for your project.',
+    message: 'Please enter the test(s) for your project.(Enter the names separate with / )',
     validate: testInput => {
       if (testInput) {
         return true;
