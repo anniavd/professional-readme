@@ -155,8 +155,13 @@ const questions = [
 
 // function to write README file
 function writeToFile(data) {
-  fs.writeFile('./dist/README.md',data, (err) => {
-    console.log(err);
+  fs.writeFile('./dist/README.md', data, (err) => {
+    if (err) {
+      console.log(err);
+    }
+    else {
+      console.log('File has been created!')
+    }
   });
 }
 
@@ -164,11 +169,9 @@ function writeToFile(data) {
 function init() {
   inquirer.prompt(questions)
     .then(answerSave => {
-      console.log(answerSave,'data')
-      let data=generateMark(answerSave);
-     
-      //console.log('segundo',fileName);
-      writeToFile(data)
+      console.log(answerSave, 'data')
+      let data = generateMark(answerSave);
+       writeToFile(data)
     });
 
 }
