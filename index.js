@@ -74,7 +74,7 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'Provide the steps required to install your project.(Enter the steps required to install separated by / )',
+    message: 'Provide the steps required to install your project.(Enter the steps required to install separated by / .)',
     validate: installationInput => {
       if (installationInput) {
         return true;
@@ -159,7 +159,7 @@ const questions = [
   {
     type: 'input',
     name: 'tests',
-    message: 'Please enter the test(s).(Enter the information from the tests each separated by / )',
+    message: 'Please enter the test(s).(Enter the information from the tests each separated by / .)',
     validate: testInput => {
       if (testInput) {
         return true;
