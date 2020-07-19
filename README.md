@@ -15,6 +15,6 @@ The application informs the user how the information must be entered in some cas
 
 ### Example the aplication run from terminal.
 
-![aplication](/images/app.js)
+![aplication run](./images/app.js)
 
  [link to the app video](https://)
