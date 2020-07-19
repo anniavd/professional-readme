@@ -19,6 +19,7 @@ ${appendTable()}\n`
     }
   }
 
+  
  const generateInstallation= () =>{
   let listNameArr = data.installation.split('/');   
   let name = '# Installation \n ';
@@ -26,7 +27,7 @@ ${appendTable()}\n`
   name += `- ${element.trim()}\n`;
     
   });
-  return name;
+    return name;
  }
 
   const generateContribuitors = () => {
