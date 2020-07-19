@@ -13,11 +13,6 @@ The application has optional information where the user is asked to confirm if t
 
 The application informs the user how the information must be entered in some cases so that it is later displayed separated in the readme. The user is asked to separate the information using the following special character / between one information and another.
 
-### Example the aplication run from terminal.
-
-![aplication](images/app.jpg)
-
-
 
 ### You can find an explanatory video about the app.
 
