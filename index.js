@@ -10,7 +10,7 @@ const questions = [
   {
     type: 'input',
     name: 'github',
-    message: 'Enter your GitHub Username.',
+    message: 'What is your GitHub Username?',
     validate: githubInput => {
       if (githubInput) {
         return true;
@@ -24,7 +24,7 @@ const questions = [
   {
     type: 'input',
     name: 'email',
-    message: 'Enter your email address.',
+    message: 'What is your email address?',
     validate: emailInput => {
       if (emailInput) {
         return true;
@@ -52,7 +52,7 @@ const questions = [
   {
     type: 'input',
     name: 'description',
-    message: 'Provide a description of the project',
+    message: 'Provide a description of the project.',
     validate: descriptionInput => {
       if (descriptionInput) {
         return true;
@@ -74,7 +74,7 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'Provide a installation of the project.',
+    message: 'Provide the steps required to install your project.(Enter the steps required to install separated by / )',
     validate: installationInput => {
       if (installationInput) {
         return true;
@@ -88,12 +88,12 @@ const questions = [
   {
     type: 'input',
     name: 'usage',
-    message: 'Provide a usage of the project.',
+    message: 'Provide instructions and examples for use the project.',
     validate: usageInput => {
       if (usageInput) {
         return true;
       } else {
-        console.log('Please enter a usage  of the project!');
+        console.log('Please provide instructions and examples of the project use!');
         return false;
       }
     }
@@ -103,7 +103,7 @@ const questions = [
   {
     type: 'list',
     name: 'license',
-    message: 'Select a lincense.',
+    message: 'Select a license if you worked with any.',
     choices: ['MIT', 'APACHE', 'GPL 3.0', 'BSD 3.0', 'NONE']
 
   },
@@ -138,7 +138,7 @@ const questions = [
   {
     type: 'input',
     name: 'tests',
-    message: 'Please enter the test(s) for your project.(Enter the names separate with / )',
+    message: 'Please enter the test(s) for your project.(Enter the information from the tests each separated by / )',
     validate: testInput => {
       if (testInput) {
         return true;
