@@ -88,7 +88,7 @@ const questions = [
   {
     type: 'input',
     name: 'usage',
-    message: 'Provide instructions and examples for use the project.',
+    message: 'Provide instructions and examples for use the project.(Enter the instructions and examples separated by / )',
     validate: usageInput => {
       if (usageInput) {
         return true;
@@ -167,8 +167,7 @@ function writeToFile(data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions)
-    .then(answerSave => {
-      console.log(answerSave, 'data')
+    .then(answerSave => {      
       let data = generateMark(answerSave);
        writeToFile(data)
     });
