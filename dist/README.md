@@ -1,12 +1,12 @@
-# HORISEON
+# RUN BUDY
 
 
-![License](https://img.shields.io/badge/License-APACHE-grenn.svg)
+![License](https://img.shields.io/badge/License-NONE-grenn.svg)
   
 
 # Description
 
-Horiseon is a website that helps business owners find feasible clients.It controls the online opinion that their clients will have access to. It determines the platforms that are most compatible with their brand.
+ddsff
   
 
 # Table of Contents
@@ -15,7 +15,7 @@ Horiseon is a website that helps business owners find feasible clients.It contro
 
 [Usage](#Usage)
 
-[Lisence](#License)
+[License](#License)
 
 
 [Contributing](#Contributing)
@@ -27,27 +27,26 @@ Horiseon is a website that helps business owners find feasible clients.It contro
 
   
 # Installation 
- - instal visual code
-- instal github
-- create a folther for save the info
+ - first step
+- second step
 
 
 # Usage
 
-las instrucciones son entrar un nombre,luego se pregunta cuanto tardara en realizar el test
+dsfdsf
 
 # License
-
-APACHE
+The license for which the application is covered:
+NONE 
 
 # CONTRIBUTING 
- - ANNIA VALDES
-- YUDENIA HERNANDEZ
+ - MILLER MUNOZ
+- LETICIA GATE
 
 
 # Test 
- - unit test for message errors
-- unit test for function
+ - unit test erros
+- unit test installation
 
 
 # Questions
@@ -57,5 +56,5 @@ APACHE
   Link to my Github: [anniavd](https://github.com/anniavd)
 
   
-  Email acount: annuski10@gmail.com
+  Email acount: [annuski9@gamil.com](mailto:annuski9@gamil.com)
     

@@ -11,7 +11,7 @@ function generateMarkdown(data) {
 
 [Installation](#Installation)\n
 [Usage](#Usage)\n
-[Lisence](#License)\n
+[License](#License)\n
 ${appendTable()}\n`
     }
     else {
@@ -19,7 +19,7 @@ ${appendTable()}\n`
     }
   }
 
-  
+
  const generateInstallation= () =>{
   let listNameArr = data.installation.split('/');   
   let name = '# Installation \n ';
@@ -74,8 +74,30 @@ ${appendTable()}\n`
     return name;
   }
 
+ const LicenseInfo= () =>{
+  let link='';
+   if(data.license==='MIT'){
+      let link=`[Information about the license](https://opensource.org/licenses/${data.license}) `;
+      return link;
+   }
+  if(data.license==='GPL 3.0'){
+    let link=`[Information about the license](https://opensource.org/licenses/${data.license.replace(/ /g, '-')}) `;
+    return link; 
+ }
+ if(data.license==='BSD 3.0'){
+   //let B= 'BSD-3-Clause'
+  let link=`[Information about the license](https://opensource.org/licenses/BSD-3-Clause) `;
+  return link; 
+ }
+ if(data.license==='APACHE'){
+  let link=`[Information about the license](https://opensource.org/licenses/${data.license}-2.0) `;
+  return link; 
+ }
+ if(data.license==='NONE'){
  
-
+  return link; 
+ }
+ }
 
   return `# ${data.projecttitle.toUpperCase()}
 
@@ -95,8 +117,8 @@ ${generateInstallation()}
 ${data.usage}
 
 # License
-
-${data.license}
+The license for which the application is covered:
+${data.license} ${LicenseInfo()}
 
 ${generateContribuitors()}
 
@@ -108,7 +130,7 @@ ${generateTest()}
   
   Link to my Github: [${data.github}](https://github.com/${data.github})\n
   
-  Email acount: ${data.email}
+  Email acount: [${data.email}](mailto:${data.email})
     
 `;
 
