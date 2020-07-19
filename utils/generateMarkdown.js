@@ -18,6 +18,25 @@ ${appendTable()}\n`
       return " ";
     }
   }
+//show technology
+
+const generateTechnology=()=>{
+   if (data.technologyConfirm === true) {
+      //create array for save the contribuitors info
+      let listNameArr = data.technology.split('/');  
+       //create the title for the section  
+      let name = '# Technologies \n ';
+       //function for print each name
+      listNameArr.forEach(element => {
+        name += `- ${element.trim().toUpperCase()}\n`;
+
+      });
+      return name;
+    }
+    else {
+      return "";
+    }
+}
 
 // show the info by section Installation
  const generateInstallation= () =>{
@@ -83,6 +102,9 @@ ${appendTable()}\n`
 // add tabble contents the secction are optional for the user
   const appendTable = () => {
     let name = '';
+    if(data.technologyConfirm){
+      name+= `\n[Technologies](#Technologies)\n`;  
+    }
     if (data.contributionConfirm === true) {
       //create the link
       name += `\n[Contributing](#Contributing)\n`;
@@ -148,6 +170,8 @@ ${generateUsage()}
 # License
 The license for which the application is covered:
 ${data.license} ${LicenseInfo()}
+
+${generateTechnology()}
 
 ${generateContribuitors()}
 

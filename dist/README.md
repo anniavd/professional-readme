@@ -6,7 +6,7 @@
 
 # Description
 
-ddsff
+dsfdsg
   
 
 # Table of Contents
@@ -18,6 +18,8 @@ ddsff
 [License](#License)
 
 
+[Technologies](#Technologies)
+
 [Contributing](#Contributing)
 
 [Test](#Test)
@@ -27,34 +29,42 @@ ddsff
 
   
 # Installation 
- - first step
-- second step
+ - step 1
+- step 2
+- examples
 
 
-# Usage
+# Usage 
+ - instructions 1
+- instructions 2
 
-dsfdsf
 
 # License
 The license for which the application is covered:
 NONE 
 
-# CONTRIBUTING 
- - MILLER MUNOZ
-- LETICIA GATE
+# Technologies 
+ - HTML
+- CSS
+- NODE.JS
+- INQUIRER
+
+
+# Contributing 
+ - ANNIA
 
 
 # Test 
- - unit test erros
-- unit test installation
+ - test 1
+- test2
 
 
 # Questions
 
   If you have questions about the project, below you can find ways to answer them, either by visiting my highub or contacting me by email
   
-  Link to my Github: [anniavd](https://github.com/anniavd)
+  Link to my Github: [ann](https://github.com/ann)
 
   
-  Email acount: [annuski9@gamil.com](mailto:annuski9@gamil.com)
+  Email acount: [user github](mailto:user github)
     
