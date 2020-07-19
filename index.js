@@ -107,6 +107,27 @@ const questions = [
     choices: ['MIT', 'APACHE', 'GPL 3.0', 'BSD 3.0', 'NONE']
 
   },
+  // Used technology
+  {
+    type: 'confirm',
+    name: 'technologyConfirm',
+    message: 'Would you like to include the technologies used in the project?',
+    default: false
+  },
+  {
+    type: 'input',
+    name: 'technology',
+    message:'Enter the technologies separate by / .',
+    validate: technologyInput => {
+      if (technologyInput) {
+        return true;
+      } else {
+        console.log("Please enter the technologies!");
+        return false;
+      }
+    },
+    when: ({technologyConfirm }) => technologyConfirm
+  },
   //project contribution
   {
     type: 'confirm',
@@ -117,7 +138,7 @@ const questions = [
   {
     type: 'input',
     name: 'contribution',
-    message: 'Enter the contributors!(Enter the names separate with / )',
+    message: 'Enter the contributors names separate with / .',
     validate: contributionInput => {
       if (contributionInput) {
         return true;
@@ -138,7 +159,7 @@ const questions = [
   {
     type: 'input',
     name: 'tests',
-    message: 'Please enter the test(s) for your project.(Enter the information from the tests each separated by / )',
+    message: 'Please enter the test(s).(Enter the information from the tests each separated by / )',
     validate: testInput => {
       if (testInput) {
         return true;
@@ -167,9 +188,9 @@ function writeToFile(data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions)
-    .then(answerSave => {      
+    .then(answerSave => {
       let data = generateMark(answerSave);
-       writeToFile(data)
+      writeToFile(data)
     });
 
 }
