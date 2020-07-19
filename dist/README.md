@@ -1,12 +1,12 @@
-# RUN BUDY
+# PROFESSIONAL README
 
 
-![License](https://img.shields.io/badge/License-NONE-grenn.svg)
+![License](https://img.shields.io/badge/License-APACHE-grenn.svg)
   
 
 # Description
 
-dsfdsg
+Professional readme is an application that dynamically generates the text the a readme.md once the user enters all the required information.
   
 
 # Table of Contents
@@ -29,42 +29,41 @@ dsfdsg
 
   
 # Installation 
- - step 1
-- step 2
-- examples
+ - Step 1
+- Step 2
 
 
 # Usage 
- - instructions 1
-- instructions 2
+ - Instructions 1
+- instruction 2
 
 
 # License
 The license for which the application is covered:
-NONE 
+APACHE [Information about the license](https://opensource.org/licenses/APACHE-2.0) 
 
 # Technologies 
- - HTML
-- CSS
+ - JAVASCRIPT
 - NODE.JS
 - INQUIRER
 
 
 # Contributing 
- - ANNIA
+ - ANNIA VALDES
+- MILLER BONE
 
 
 # Test 
- - test 1
-- test2
+ - Test 1
+- Test 2
 
 
 # Questions
 
   If you have questions about the project, below you can find ways to answer them, either by visiting my highub or contacting me by email
   
-  Link to my Github: [ann](https://github.com/ann)
+  Link to my Github: [anniavd](https://github.com/anniavd)
 
   
-  Email acount: [user github](mailto:user github)
+  Email acount: [annuski9@gmail.com](mailto:annuski9@gmail.com)
     
