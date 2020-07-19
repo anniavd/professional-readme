@@ -19,32 +19,31 @@ ${appendTable()}\n`
     }
   }
 
+ const generateInstallation= () =>{
+  let listNameArr = data.installation.split('/');   
+  let name = '# Installation \n ';
+  listNameArr.forEach(element => {
+  name += `- ${element.trim()}\n`;
+    
+  });
+  return name;
+ }
+
   const generateContribuitors = () => {
     if (data.contributionConfirm === true) {
-      let listNameArr = data.contribution.split('/');
+      let listNameArr = data.contribution.split('/');     
       let name = '# Contributing \n ';
       listNameArr.forEach(element => {
         name += `- ${element.trim()}\n`;
 
       });
-      return name;
+      return name.toUpperCase();
     }
     else {
       return "";
     }
   }
 
-  const appendTable = () => {
-    let name = '';
-    if (data.contributionConfirm === true) {
-      name += `\n[Contributing](#Contributing)\n`;
-    }
-    if (data.testConfirm === true) {
-      name += `\n[Test](#Test)\n`;
-    }
-    name += `\n[Questions](#Questions)\n`;
-    return name;
-  }
 
   const generateTest = () => {
     if (data.testConfirm === true) {
@@ -62,7 +61,22 @@ ${appendTable()}\n`
   }
 
 
-  return `# ${data.projecttitle}
+  const appendTable = () => {
+    let name = '';
+    if (data.contributionConfirm === true) {
+      name += `\n[Contributing](#Contributing)\n`;
+    }
+    if (data.testConfirm === true) {
+      name += `\n[Test](#Test)\n`;
+    }
+    name += `\n[Questions](#Questions)\n`;
+    return name;
+  }
+
+ 
+
+
+  return `# ${data.projecttitle.toUpperCase()}
 
 \n![License](https://img.shields.io/badge/License-${data.license.replace(/ /g, '%20')}-grenn.svg)
   
@@ -73,10 +87,7 @@ ${data.description}
   
 ${generateTableCont()}
   
-
-# Installation
-
-${data.installation}
+${generateInstallation()}
 
 # Usage
 
