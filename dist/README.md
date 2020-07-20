@@ -1,12 +1,12 @@
-# HORISEON
+# PROFESSIONAL README
 
 
-![License](https://img.shields.io/badge/License-GPL%203.0-grenn.svg)
+![License](https://img.shields.io/badge/License-APACHE-grenn.svg)
   
 
 # Description
 
-Horiseon is a website that helps business.
+Professional readme is an application that dynamically generates the text the a readme once the user enters all the required information.
   
 
 # Table of Contents
@@ -30,26 +30,26 @@ Horiseon is a website that helps business.
   
 # Installation 
  - step 1
-- step2
+- step 2
 
 
 # Usage 
- - intructions 1
-- intruntions 2
+ - intrunction 1
+- intruction 2
 
 
 # License
 The license for which the application is covered:
-GPL 3.0 [Information about the license](https://opensource.org/licenses/GPL-3.0) 
+APACHE [Information about the license](https://opensource.org/licenses/APACHE-2.0) 
 
 # Technologies 
- - VISUAL STUDIO CODE
-- GOOGLE FONTS
+ - NODE.JS
+- JAVASCRIPT
+- INQUIRER
 
 
 # Contributing 
  - ANNIA VALDES
-- MILLER BONE
 
 
 # Test 
