@@ -1,12 +1,12 @@
-# PROFESSIONAL README
+# HORISEON
 
 
-![License](https://img.shields.io/badge/License-APACHE-grenn.svg)
+![License](https://img.shields.io/badge/License-GPL%203.0-grenn.svg)
   
 
 # Description
 
-Professional readme is an application that dynamically generates the text the a readme.md once the user enters all the required information.
+Horiseon is a website that helps business.
   
 
 # Table of Contents
@@ -29,23 +29,22 @@ Professional readme is an application that dynamically generates the text the a 
 
   
 # Installation 
- - Step 1
-- Step 2
+ - step 1
+- step2
 
 
 # Usage 
- - Instructions 1
-- instruction 2
+ - intructions 1
+- intruntions 2
 
 
 # License
 The license for which the application is covered:
-APACHE [Information about the license](https://opensource.org/licenses/APACHE-2.0) 
+GPL 3.0 [Information about the license](https://opensource.org/licenses/GPL-3.0) 
 
 # Technologies 
- - JAVASCRIPT
-- NODE.JS
-- INQUIRER
+ - VISUAL STUDIO CODE
+- GOOGLE FONTS
 
 
 # Contributing 
@@ -54,8 +53,8 @@ APACHE [Information about the license](https://opensource.org/licenses/APACHE-2.
 
 
 # Test 
- - Test 1
-- Test 2
+ - test 1
+- test 2
 
 
 # Questions

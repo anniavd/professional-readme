@@ -16,4 +16,4 @@ The application informs the user how the information must be entered in some cas
 ### You can find an explanatory video about the app.
 
 
- [link to the app video](https://)
+ [link to the app video](https://drive.google.com/file/d/1jNDrVvzwecKCjTv0dMR_7ZL5DzbLkSAF/)
