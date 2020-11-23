@@ -34,8 +34,8 @@ Professional readme is an application that dynamically generates the text the a 
 
 
 # Usage 
- - intrunction 1
-- intruction 2
+ - instruction 1
+- instruction 2
 
 
 # License
@@ -49,7 +49,7 @@ APACHE [Information about the license](https://opensource.org/licenses/APACHE-2.
 
 
 # Contributing 
- - ANNIA VALDES
+ - None
 
 
 # Test 
