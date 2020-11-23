@@ -6,10 +6,48 @@ Professional readme is an application that dynamically generates the text the a 
 
 The application has optional information where the user is asked to confirm if they want to enter the information. Below are the optional sections to create:
 
-* Table of Contents
-* Tecnologies
-* Contribuitors.
-* Test.
+
+
+# Table of Contents
+
+[Installation](#Installation)
+
+[Usage](#Usage)
+
+[License](#License)
+
+
+[Questions](#Questions)
+
+
+  
+# Installation 
+ - Clone the app in to your pc.
+- Open a console terminal for the app.
+- run the line command node index.
+
+
+# Usage 
+ - The user need anserw the questions is gone show one by one.
+- Some questions are optional.when the user end,the app show the message `File has been create`
+- The user can see the generator readme open the folder dist.
+
+
+# License
+The license for which the application is covered:
+NONE 
+
+
+
+# Questions
+
+  If you have questions about the project, below you can find ways to answer them, either by visiting my highub or contacting me by email
+  
+  Link to my Github: [anniavd](https://github.com/anniavd)
+
+  
+  Email acount: [annia.valdesd@gmail.com](mailto:annia.valdesd@gmail.com)
+    
 
 The application informs the user how the information must be entered in some cases so that it is later displayed separated in the readme. The user is asked to separate the information using the following special character / between one information and another.
 
